@@ -1,2 +1,6 @@
+Config/
 node_modules/
+CSS/tailwind.css
+package.json
+package-lock.json
 error.log
