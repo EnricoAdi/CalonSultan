@@ -1,0 +1,14 @@
+body {
+    background: linear-gradient(90deg, #487f63 0%, #f0b86c 100%);
+}
+.rowArtikel {
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+    margin-top: 2%;
+    padding: 2%;
+    position: relative;
+}
+#formRow {
+    display: inline-block;
+}

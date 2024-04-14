@@ -1,0 +1,38 @@
+#keuangan, #laporan, #history{
+    display: none;
+}
+
+#dashboard, #keuangan, #laporan, #history{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+/* DEBUG ONLY */
+
+#dashboard{
+    /* display: none; */
+}
+
+#keuangan{
+    /* display: block; */
+}
+
+/* DEBUG ONLY */
+
+#dashboard::-webkit-scrollbar, #keuangan::-webkit-scrollbar, #laporan::-webkit-scrollbar, #history::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.card{
+    padding: 15px;
+    background-color: var(--darkColor);
+    color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.judulPage{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

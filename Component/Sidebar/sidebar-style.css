@@ -1,0 +1,94 @@
+@import url("../../CSS/colors.css"); /* Using a url */
+
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --sidebar-full: 243px;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+#container{
+    display: flex;
+}
+
+.vertical-center{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.side-bar{
+    height: 100vh;
+    width: var(--sidebar-full);
+    background-color: var(--darkColor);
+    /* background-color: rgba(28, 28, 28, 1); */
+    transition: all 0.5s ease;
+}
+
+.side-bar-active{
+    width:70px;
+}
+
+.side-bar-active #bar{
+    padding-left: 3px;
+}
+
+.content{
+    font-size: 5rem;
+}
+
+#bar, .side-menu-container{
+    cursor:pointer;
+}
+
+.side-menu-container{
+    margin-bottom: 15px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: calc(var(--sidebar-full) - 230px);
+    padding-right: calc(var(--sidebar-full) - 230px);
+}
+
+.side-menu{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    width: 100%;
+    font-size: 1.05rem;
+    font-weight: bold;
+    display: flex;
+    gap: 15px;
+    align-items: center; 
+    transition: all 0.2s ease;
+    border-radius: 10px;
+}
+
+.side-menu{
+    color: white;
+}
+
+
+.side-menu-container:hover .side-menu{
+    background-color: whitesmoke;
+    color: var(--darkColor);
+}
+
+.side-icon{
+    font-size: 1.5rem;
+}
+
+.side-menu-logout{
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,32 @@
+<div id="side-container" style="display:absolute">
+        <div class="side-bar">
+            <div class="side-bar-title px-5 relative" style="height:50px">
+                <span class="side-bar-judul text-white text-2xl vertical-center">CalonSultan</span>
+                <span class="vertical-center text-white right-0" style="transform:translateY(-40%);margin-right: 25px;" id="bar"><i class="fa-solid fa-bars text-xl"></i></span>
+            </div>
+            <div class="side-menu-container mt-4">
+                <div class="side-menu" target="0">
+                    <i class="fa-solid fa-wallet"></i>
+                    <span>Dashboard</span>
+                </div>
+            </div>
+            <div class="side-menu-container">
+                <div class="side-menu" target="1">
+                    <i class="fa-solid fa-wallet"></i>
+                    <span>Keuangan</span>
+                </div>
+            </div>
+            <div class="side-menu-container">
+                <div class="side-menu" target="2">
+                    <i class="fa-solid fa-wallet"></i>
+                    <span>Laporan</span>
+                </div>
+            </div>
+            <div class="side-menu-container">
+                <div class="side-menu" target="3">
+                    <i class="fa-solid fa-wallet"></i>
+                    <span>Advisor</span>
+                </div>
+            </div>
+        </div>
+    </div>

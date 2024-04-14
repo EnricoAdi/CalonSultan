@@ -1,0 +1,17 @@
+Component   -> Isine komponen2 yang bisa direuse / terlalu panjang, jadi ditaruh situ aja
+
+Config      -> Isi konfigurasi / setting yang penting
+    - cdn.php           -> isi css keseluruhan, js, jq, fontawesome
+    - source.css        -> source tailwind
+    - style-custom.css  -> Style custom yang apply ke seluruh dokumen
+    - tailwind.css      -> output tailwind style
+
+Images      -> gambar"
+
+midtrans    -> Transaksi midtrans
+
+Model       -> Class Model 
+
+Scripts     -> Script yang mungkin dipakai (nanti ada subfolder landingpage/app page)
+
+Utils       -> Utility / library lain yang membantu
